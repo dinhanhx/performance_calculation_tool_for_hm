@@ -13,5 +13,5 @@ This simple project uses simple functions from [pretty errors](https://pypi.org/
 
 ## Other scripts
 
-`combine.py` is meant to combine all `data.jsonl`, `dev_seen.jsonl`, `dev_unseen.jsonl`, `test_seen.jsonl`, `test_unseen.jsonl` into `data_test.jsonl`. Importantly, `test_seen.jsonl`, `test_unseen.jsonl` must have labels. 
+`combine.py` is meant to combine all `train.jsonl`, `dev_seen.jsonl`, `dev_unseen.jsonl`, `test_seen.jsonl`, `test_unseen.jsonl` into `data_test.jsonl`. Importantly, `test_seen.jsonl`, `test_unseen.jsonl` must have labels. By combining so, `data_test.jsonl` contains all metadata of all memes in the dataset.
 
